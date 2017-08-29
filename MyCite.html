@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Theme Simply Me</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet"href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  
+  <style>
+	body {
+    font: 20px "Montserrat", sans-serif;
+    line-height: 1.8;
+    color: #f5f6f7;
+	}
+
+	p {font-size: 16px;}
+
+    .bg-1{
+	  background-color: #eeeeee;
+	  color: #222222;
+	}
+    .bg-2{
+	  background-color: #777777;
+	  color: #eeeeee;
+	}
+    .bg-3{
+	  background-color: #F6E3CE;
+	  color: #222222;
+	}
+
+	.bg-4 { 
+		background-color: #2f2f2f;
+		color: #ffffff;
+	}
+
+    .textSizeBase{
+      font-size: 16px;
+	}
+	.container-fluid {
+		padding-top: 70px;
+		padding-bottom: 70px;
+	}
+	
+	.navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 5px;
+	}
+	.navbar-nav li a:hover {
+		color: #1abc9c !important;
+	}
+
+</style>
+</head>
+<body>
+
+<nav class="navbar navbar-default">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span> 
+      </button>
+      <a class="navbar-brand" href="#">Me</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#who">WHO</a></li>
+        <li><a href="#where">WHERE</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="container-fluid bg-1 text-center">
+	<h3> Personal cite</h3>
+	<img src="myself.png" class="img-circle image-responsive" style="display:inline" alt="Me"></img>
+	<h3> I'm investigator </h3>
+</div>
+
+<div id="who" class="container-fluid bg-2 text-center textSizeBase">
+	<h3 class="text-center"> Who am I?</h3>
+	<p>
+       My name is Raman Kudaktsin. <br> I'm 
+       <ul>
+            <li>physist, </li>
+			<li>mathematician, </li>
+			<li>programmer, </li>
+			<li>dancer, </li>
+			<li>cognitive scientists, </li>
+			<li>social scientist, </li>
+			<li>psychologist </li>
+			<li> and so on </li>
+		</ul>  
+            I'm active in different fields and I believe that my activities carry many wonderful results to our country - Belarus,
+            and to the whole world!     
+    </p>
+	<a href="#" class="btn btn-default btn-large">
+		<span class="glyphicon glyphicon-search"></span> Search
+	</a>
+</div>
+
+<div id="where" class="container-fluid bg-3 text-center text-justified textSizeBase">
+  <h3>Where To Find Me?</h3>
+  <div class="row">
+    <div class="col-sm-4">
+      <p>I live in Belarus. This is country with great history, wonderful green forests and beautiful lakes.</p>
+      <img src="Belarus.png" class="img-responsive" style="width:100%" alt="Image">
+    </div>
+    <div class="col-sm-4">
+      <p>Belarus has a great history. The biggest wars were in our country. There are many old castles, churches and other famous sights in Belarus</p>
+      <img src="castle.png" class="img-responsive" style="width:100%" alt="Image">
+    </div>
+    <div class="col-sm-4"> 
+      <p>I live in the capital of our small and very proudy country. It is Miensk. The first saying about Miensk was in 1067 year. Our city is beautiful, has
+        many parks and historical monuments. Miensk is a cultural, educational, economical and political center of Belarus. And here I've made all my understoods. 
+	   </p>
+      <img src="Miensk.png" class="img-responsive" style="width:100%" alt="Image">
+    </div>
+  </div>
+</div>
+
+<footer class="container-fluid bg-4 text-center">
+  <p>Bootstrap Theme Made By <a href="https://www.w3schools.com">www.w3schools.com</a></p> 
+</footer>
+
+</body>
+</html>
